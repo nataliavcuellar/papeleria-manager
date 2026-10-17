@@ -1,0 +1,30 @@
+# Maven and Java output
+target/
+build/
+*.class
+*.log
+*.jar
+*.war
+
+# Runtime-generated invoices and reports (may contain personal data)
+facturas/
+reportes/
+
+# IDEs
+.idea/
+.vscode/
+.settings/
+.metadata/
+.project
+.classpath
+*.iml
+
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
